@@ -5,4 +5,7 @@
 性别分布
 ![](https://github.com/uxlsl/32hike/raw/master/sex.png)
 
+旅游目的地分布前20
+![](https://github.com/uxlsl/32hike/raw/master/tour.png)
+
 
