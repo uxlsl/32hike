@@ -143,7 +143,8 @@ def getRecommendedItems(prefs,itemMatch,user):
     totalSim={}
     # Loop over items rated by this user
     for (item,rating) in userRatings.items( ):
-
+        if item not in itemMatch:
+            continue
         # Loop over items similar to this one
         for (similarity,item2) in itemMatch[item]:
 
